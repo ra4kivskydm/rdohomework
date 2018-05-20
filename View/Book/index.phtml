@@ -1,0 +1,11 @@
+<div class="alert-success">
+     <?=$status?>
+</div>
+
+<div class="table-active">
+    <?php
+    while($row = $books->fetch_row()) {
+        var_dump($row);
+    }
+    ?>
+</div>
